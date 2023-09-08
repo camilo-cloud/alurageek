@@ -1,0 +1,107 @@
+.main__producto{
+    background-color: #f5f5f5;
+}
+.boton__agregarProductos__header{
+    width: 100%;
+    Height: 40px;
+    color: #2a7ae4;
+    background-color: #ffffff;
+    border-color: #2a7ae4;
+    border-width: 1px;
+    gap: 10px;
+    font-size: 18px;
+    
+    cursor: pointer;
+}
+
+.formulario__agregarProducto{
+    
+}
+
+.container__formulario{
+    padding: 40px 500px 50px 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formulario__agregarProducto h3{
+    padding-top: 6px;
+    padding-bottom: 20px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+}
+.input__producto {
+    width: 100%;
+    height: 56px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #888; /* Borde inferior gris */
+    background-color: white;
+    padding: 8px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+    margin-bottom: 15px; 
+}
+
+/* Estilo para el texto "nombre" encima del input */
+.input__producto::placeholder {
+    text-align: left;
+    font-size: 12px;
+    color: #888; 
+    transform: translateY(-10px); /* Mueve el texto del placeholder hacia arriba */
+    transition: transform 0.2s ease; /* Agrega una transición suave */
+}
+
+/* Estilo para el input cuando está enfocado */
+.input__producto:focus {
+    outline: none; 
+    border-bottom: 2px solid #2A7AE4; 
+}
+
+
+.input__producto:focus::placeholder {
+    transform: translateY(-25px); 
+    padding-bottom: 0; 
+}
+
+.descripcion__delProducto{
+    width: 100%;
+    height: 76px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #888; 
+    background-color: white;
+    padding: 8px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+    margin-bottom: 15px; 
+}
+
+.descripcion__delProducto:focus {
+    outline: none;
+    border-bottom: 2px solid #2A7AE4; 
+}
+
+.descripcion__delProducto:focus::placeholder {
+    transform: translateY(-25px); 
+    padding-bottom: 0;
+}

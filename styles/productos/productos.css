@@ -1,0 +1,17 @@
+.boton__verTodosLosProductos{
+    width: 144px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.linea__producto__dos{
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px 0px 160px;
+}

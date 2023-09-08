@@ -1,0 +1,81 @@
+.linea__producto{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px 0px 160px;
+}
+
+.barra__titulo__productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.titulo__productos{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ver__mas__boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 30px;
+    border: none; 
+    background-color: #ffffff;
+    color: #2a7ae4;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.producto{
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.primerParrafo__productos{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.precio__productos{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+a:link{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
