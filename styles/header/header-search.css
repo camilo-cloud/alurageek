@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     width: 600px;
-    margin-left: -38px; /* Esto moverá el elemento algunos px a la izquierda */
+    /* margin-left: -38px; Esto moverá el elemento algunos px a la izquierda */
 }
 .bloque__search img{
     cursor: pointer;
