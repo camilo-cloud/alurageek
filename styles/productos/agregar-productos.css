@@ -1,5 +1,8 @@
 .main__producto{
     background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .boton__agregarProductos__header{
     width: 100%;
@@ -15,15 +18,16 @@
 }
 
 .formulario__agregarProducto{
-    
+    width: 100%;
 }
 
 .container__formulario{
-    padding: 40px 500px 50px 500px;
+    /* padding: 40px 500px 50px 500px; */
+    width: 40%;
     height: 550px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
 }
 
 .formulario__agregarProducto h3{
@@ -104,4 +108,25 @@
 .descripcion__delProducto:focus::placeholder {
     transform: translateY(-25px); 
     padding-bottom: 0;
+}
+
+@media (max-width: 900px){
+    .main__producto{
+        display: inline-block;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .formulario__agregarProducto{
+        width: 50%;
+        justify-content: center;
+    }
+    .container__formulario{
+        padding: 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario__agregarProducto h3{
+        font-size: 18px;
+    }
 }

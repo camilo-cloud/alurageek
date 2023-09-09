@@ -167,3 +167,38 @@
 .logo__footer img{
 
 }
+
+@media (max-width: 900px){
+    .contacto{
+        height: auto;
+    }
+    .contenedor__footer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 20px 20px 20px 20px;
+    }
+    .logo__footer{
+        justify-content: center;
+        padding-bottom: 8px;
+    }
+    .quienes__somos{
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .quienes__somos a{
+        padding-bottom: 20px;
+    }
+    .formulario{
+        width: auto;
+    }
+    .formulario h3{
+        color:  #464646;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+}
